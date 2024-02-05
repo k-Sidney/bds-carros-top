@@ -1,5 +1,5 @@
 .main-nav{
-    padding-left: 150px;
+    padding-left: 20px;
     min-height: 70px;
 }
 
@@ -22,4 +22,10 @@
 .main-menu a.active {
     color: #00285f;
     font-weight: 700;
+  }
+
+  @media(min-width: 1200px){
+    .main-nav{
+      padding-left: 140px;
+    }
   }

@@ -1,0 +1,29 @@
+.btn-icon {
+    width: 174px;
+    height: 40px;
+    margin: 20px 50px 5px 50px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #00285F;
+    color: #ffffff;
+}
+
+.btn-icon :hover {
+    background-color: #00285F;
+    color: #ffffff;
+}
+
+.btn-icon p {
+    padding-top: 3px;
+}
+
+#text{
+    color: #585858;
+    font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .btn-icon{
+        margin: 0px 15px 5px 85px;
+    }
+}
